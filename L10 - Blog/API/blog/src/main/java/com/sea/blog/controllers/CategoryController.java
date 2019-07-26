@@ -42,6 +42,14 @@ public class CategoryController {
         return page;
     }
 
+    @GetMapping("/findWithBlogs/{id}")
+    @ApiOperation(value = "获取分类列表(包含博客信息)", notes = "获取分类列表(包含博客信息)")
+    @ApiImplicitParams({ @ApiImplicitParam(name = "id", value = "分类id", required = false) })
+    public List<Category> GetWithBlogs(String id) throws Exception {
+        List<Category> list = categoryMapper.findWithBlogs(id);
+        return list;
+    }
+
     @PostMapping()
     @ApiOperation(value = "新增分类", notes = "新增分类")
     @ApiImplicitParams({ @ApiImplicitParam(name = "category", value = "分类") })

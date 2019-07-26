@@ -40,7 +40,9 @@
                 from Categories c
                 INNER join BlogCategory bc on bc.CategoryID = c.Id
                 INNER join Blogs b on b.id = bc.BlogID
-            where c.id = #{id}
+                <if test="id!=null">
+                    where c.id = #{id}
+                </if>
         </select>
         <insert id="save" parameterType="Category">
             insert into Categories(Id,CreatorUserId,CreationTime,Name,IsDeleted) values(uuid(),'admin',SYSDATE(),#{name},0)
