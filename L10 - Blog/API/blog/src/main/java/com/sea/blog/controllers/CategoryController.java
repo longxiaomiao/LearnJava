@@ -66,8 +66,8 @@ public class CategoryController {
 
     @DeleteMapping()
     @ApiOperation(value = "删除分类", notes = "删除分类")
-    @ApiImplicitParams({ @ApiImplicitParam(name = "category", value = "分类") })
-    public void Delete(Category category) throws Exception {
-        categoryMapper.delete(category.getId());
+    @ApiImplicitParams({ @ApiImplicitParam(name = "id", value = "分类id") })
+    public void Delete(String id) throws Exception {
+        categoryMapper.delete(id);
     }
 }

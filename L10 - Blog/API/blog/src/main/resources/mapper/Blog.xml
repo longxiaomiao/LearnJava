@@ -42,4 +42,13 @@
                 left join Categories c on c.Id = bc.CategoryID
             where title like concat('%',#{0},'%')
         </select>
+        <insert id="save" parameterType="Blog">
+            INSERT INTO Blogs(Id, CreatorUserId, CreationTime, IsDeleted, Slug, Title, Summary, Content, IsShow) VALUES (uuid(), 'admin', SYSDATE(), 0, #{Slug}, #{Title}, #{Summary}, #{Content}, 1);
+        </insert>
+        <update id="update" parameterType="Blog">
+            update Blogs set Slug=#{Slug},Title=#{Title},Summary=#{Summary},Content=#{Content},IsShow=#{IsShow},LastModifierUserId='admin',LastModificationTime=SYSDATE() where id=#{id}
+        </update>
+        <delete id="delete" parameterType="string">
+            update Blogs set IsDeleted=1,DeleterUserId='admin',DeletionTime=SYSDATE() where id=#{id}
+        </delete>
     </mapper>
