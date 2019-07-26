@@ -8,7 +8,10 @@ import com.sea.blog.mapper.CategoryMapper;
 import com.sea.blog.model.Category;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -37,5 +40,26 @@ public class CategoryController {
         List<Category> list = categoryMapper.findAll(keyword);
         PageInfo<Category> page = new PageInfo<>(list);
         return page;
+    }
+
+    @PostMapping()
+    @ApiOperation(value = "新增分类", notes = "新增分类")
+    @ApiImplicitParams({ @ApiImplicitParam(name = "category", value = "分类") })
+    public void Add(Category category) throws Exception {
+        categoryMapper.save(category);
+    }
+
+    @PutMapping()
+    @ApiOperation(value = "更新分类", notes = "更新分类")
+    @ApiImplicitParams({ @ApiImplicitParam(name = "category", value = "分类") })
+    public void Update(Category category) throws Exception {
+        categoryMapper.update(category);
+    }
+
+    @DeleteMapping()
+    @ApiOperation(value = "删除分类", notes = "删除分类")
+    @ApiImplicitParams({ @ApiImplicitParam(name = "category", value = "分类") })
+    public void Delete(Category category) throws Exception {
+        categoryMapper.delete(category.getId());
     }
 }

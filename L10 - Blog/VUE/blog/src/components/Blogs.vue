@@ -19,7 +19,7 @@
 
 <script lang="ts">
 import { Component, Vue, Inject, Prop, Watch } from 'vue-property-decorator';
-import PageRequest from '@/store/entities/page-request';
+import PageRequest from '../store/entities/page-request';
 
 class PageBlogReqeust extends PageRequest {
   public keyWord!: string;
@@ -60,7 +60,7 @@ export default class Blogs extends Vue {
 
     await this.$store.dispatch({
       type: 'Blog/getPage',
-      data: this.pageBlogReqeust
+      data: this.pageBlogReqeust,
     });
   }
 

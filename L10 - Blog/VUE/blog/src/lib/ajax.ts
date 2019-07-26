@@ -5,17 +5,19 @@ const ajax = axios.create({
     baseURL: appconst.remoteServiceBaseUrl,
     timeout: 30000,
 });
-ajax.interceptors.request.use(function (config) {
+// tslint:disable-next-line: only-arrow-functions
+ajax.interceptors.request.use(function(config) {
     return config;
-}, function (error) {
+// tslint:disable-next-line: only-arrow-functions
+}, function(error) {
 
     return Promise.reject(error);
 });
-let vm = new Vue({});
+const vm = new Vue({});
 ajax.interceptors.response.use((respon) => {
-    return respon
+    return respon;
 }, (error) => {
-    console.log(error);
+    // tslint:disable-next-line: max-line-length
     if (!!error.response && !!error.response.data.error && !!error.response.data.error.message && error.response.data.error.details) {
         alert('error');
     } else if (!!error.response && !!error.response.data.error && !!error.response.data.error.message) {
@@ -24,5 +26,5 @@ ajax.interceptors.response.use((respon) => {
         alert('error');
     }
     return Promise.reject(error);
-})
+});
 export default ajax;

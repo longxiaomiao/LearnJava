@@ -1,5 +1,7 @@
 package com.sea.blog.model;
 
+import java.util.List;
+
 import lombok.Data;
 
 @Data
@@ -13,5 +15,5 @@ public class Category {
     private String DeletionTime;
     private String IsDeleted;
     private String Name;
-
+    private List<Blog> blogs;
 }

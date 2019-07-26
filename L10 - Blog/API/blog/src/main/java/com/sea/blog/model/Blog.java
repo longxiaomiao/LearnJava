@@ -1,6 +1,7 @@
 package com.sea.blog.model;
 
 import java.util.Date;
+import java.util.List;
 
 import lombok.Data;
 
@@ -19,4 +20,5 @@ public class Blog {
     private String Summary;
     private String Content;
     private Boolean IsShow;
+    private List<BlogCategory> blogCategories;
 }
