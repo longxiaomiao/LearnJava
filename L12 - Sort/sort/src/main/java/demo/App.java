@@ -3,6 +3,7 @@ package demo;
 import demo.common.SortData;
 import demo.sort.BaseSort;
 import demo.sort.BubbleSorts.*;
+import demo.sort.SelctionSorts.*;
 
 public class App {
     public static void main(String[] args) {
@@ -23,5 +24,21 @@ public class App {
         // 冒泡排序（从右往左冒泡 - 倒序）
         BaseSort bubbleSortReverseDesc = new BubbleSortReverseDesc();
         bubbleSortReverseDesc.Show(SortData.GetSortData());
+
+        //选择排序
+        BaseSort selctionSort = new SelctionSort();
+        selctionSort.Show(SortData.GetSortData());
+
+        //选择排序（倒序）
+        BaseSort selctionSortDesc = new SelctionSortDesc();
+        selctionSortDesc.Show(SortData.GetSortData());
+
+        //选择排序（反向）
+        BaseSort selctionSortReverse = new SelctionSortReverse();
+        selctionSortReverse.Show(SortData.GetSortData());
+        
+        //选择排序（反向倒序）
+        BaseSort selctionSortReverseDesc = new SelctionSortReverseDesc();
+        selctionSortReverseDesc.Show(SortData.GetSortData());
     }
 }
