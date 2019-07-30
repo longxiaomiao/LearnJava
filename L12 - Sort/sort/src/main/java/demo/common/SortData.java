@@ -14,6 +14,10 @@ public class SortData {
         list.add(8);
         list.add(5);
         list.add(6);
+        list.add(12);
+        list.add(23);
+        list.add(17);
+        list.add(11);
         return list;
     }
 
