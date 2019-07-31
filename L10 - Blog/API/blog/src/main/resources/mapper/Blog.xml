@@ -34,13 +34,28 @@
                 </association>
             </collection>
         </resultMap>
-        <select id="findAll" parameterType="string" resultMap="blogBean">
+        <select id="findAll" resultMap="blogBean">
             SELECT b.*,bc.*,c.id cid,c.CreatorUserId cCreatorUserId,c.CreationTime cCreationTime,c.LastModifierUserId cLastModifierUserId,c.LastModificationTime cLastModificationTime,
                     c.DeleterUserId cDeleterUserId,c.DeletionTime cDeletionTime,c.IsDeleted cIsDeleted,c.Name
                 from Blogs b 
                 left join BlogCategory bc on bc.BlogID = b.Id
                 left join Categories c on c.Id = bc.CategoryID
-            where title like concat('%',#{0},'%')
+            <where>
+                <if test="keyword!=null and keyword!=''">
+                    and title like concat('%',#{keyword},'%')
+                </if>		 	
+                <if test="categoryId!=null and categoryId!=''">
+                    and c.id = #{categoryId}
+                </if>	
+            </where>
+        </select>
+        <select id="getById" parameterType="string" resultMap="blogBean">
+            SELECT b.*,bc.*,c.id cid,c.CreatorUserId cCreatorUserId,c.CreationTime cCreationTime,c.LastModifierUserId cLastModifierUserId,c.LastModificationTime cLastModificationTime,
+                    c.DeleterUserId cDeleterUserId,c.DeletionTime cDeletionTime,c.IsDeleted cIsDeleted,c.Name
+                from Blogs b 
+                left join BlogCategory bc on bc.BlogID = b.Id
+                left join Categories c on c.Id = bc.CategoryID
+            where b.id = #{id}
         </select>
         <insert id="save" parameterType="Blog">
             INSERT INTO Blogs(Id, CreatorUserId, CreationTime, IsDeleted, Slug, Title, Summary, Content, IsShow) VALUES (uuid(), 'admin', SYSDATE(), 0, #{Slug}, #{Title}, #{Summary}, #{Content}, 1);

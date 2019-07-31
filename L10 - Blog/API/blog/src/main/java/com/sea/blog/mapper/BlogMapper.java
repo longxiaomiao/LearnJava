@@ -8,7 +8,9 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface BlogMapper {
-    List<Blog> findAll(String keyword);
+    List<Blog> findAll(String keyword, String categoryId);
+
+    Blog getById(String id);
 
     void save(Blog blog);
 

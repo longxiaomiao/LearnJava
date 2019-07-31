@@ -17,17 +17,23 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Component, Vue, Inject, Prop, Watch } from 'vue-property-decorator';
-import PageRequest from '../store/entities/page-request';
+<script lang='ts'>
+import { Component, Vue, Inject, Prop, Watch } from "vue-property-decorator";
+import PageRequest from "../store/entities/page-request";
 
 class PageBlogReqeust extends PageRequest {
   public keyWord!: string;
+  public categoryId!: string;
+}
+
+class BlogDetailRequest {
+  public id!: string;
 }
 
 @Component
 export default class Blogs extends Vue {
   public pageBlogReqeust: PageBlogReqeust = new PageBlogReqeust();
+  public blogDetailRequest: BlogDetailRequest = new BlogDetailRequest();
 
   get blogList() {
     return this.$store.state.Blog.list;
@@ -53,14 +59,26 @@ export default class Blogs extends Vue {
   get pageSize() {
     return this.$store.state.Blog.size;
   }
+
   public async getBlogs() {
     this.pageBlogReqeust.start = this.currentPage;
     this.pageBlogReqeust.size = this.pageSize;
     this.pageBlogReqeust.keyWord = this.$store.state.Blog.keyWord;
+    this.pageBlogReqeust.categoryId = this.$store.state.Blog.currentCategoryId;
 
     await this.$store.dispatch({
-      type: 'Blog/getPage',
-      data: this.pageBlogReqeust,
+      type: "Blog/getPage",
+      data: this.pageBlogReqeust
+    });
+  }
+
+  public async showBlogDetail(id: string) {
+    this.$store.commit("Blog/setShowList", false);
+    this.$store.commit("Blog/setShowDetail", true);
+    this.blogDetailRequest.id = id;
+    await this.$store.dispatch({
+      type: "Blog/getDetail",
+      data: this.blogDetailRequest,
     });
   }
 

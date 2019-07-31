@@ -41,14 +41,15 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8">
-              <Blogs></Blogs>
+              <Blogs ref="childBlogList" v-if="showList"></Blogs>
+              <BlogDetail v-if="showDetail"></BlogDetail>
             </div>
             <div class="col-sm-4">
               <div class="container">
                 <div class="row">
                   <div class="col">
                     <div class="card">
-                      <img src="../assets/logo.png" class="card-img-top" />
+                      <img src class="card-img-top" />
                       <div class="card-body">
                         <h5 class="card-title">sea</h5>
                         <p class="card-text">sea</p>
@@ -63,6 +64,8 @@
                       <b-list-group-item
                         href="javascript:void(0);"
                         v-for="category in categoryList"
+                        @click="searchBlog(category.id)"
+                        :active="currentCategoryId==category.id"
                       >{{category.name}}</b-list-group-item>
                     </b-list-group>
                   </div>
@@ -79,15 +82,35 @@
 <script lang='ts'>
 import { Component, Vue } from "vue-property-decorator";
 import Blogs from "@/components/Blogs.vue";
+import BlogDetail from "@/components/BlogDetail.vue";
 
 @Component({
-  components: { Blogs }
+  components: { Blogs, BlogDetail }
 })
 export default class Home extends Vue {
-  keyWord: string = "";
+  $refs!: { childBlogList: HTMLFormElement };
+  public keyWord: string = "";
+
+  get showList() {
+    return this.$store.state.Blog.showList;
+  }
+
+  get showDetail() {
+    return this.$store.state.Blog.showDetail;
+  }
+
+  get currentCategoryId() {
+    return this.$store.state.Blog.currentCategoryId;
+  }
 
   get categoryList() {
     return this.$store.state.Category.list;
+  }
+
+  public async searchBlog(categoryId: string = "") {
+    this.$store.commit("Blog/setCurrentCategoryId", categoryId);
+    this.$store.commit("Blog/setKeyWord", this.keyWord);
+    this.$refs.childBlogList.getBlogs();
   }
 
   public async created() {

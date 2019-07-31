@@ -25,7 +25,7 @@ public class BlogApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		List<Blog> blogs = blogMapper.findAll("");
+		List<Blog> blogs = blogMapper.findAll("","");
 		for (Blog blog : blogs) {
 			System.out.println(blog.getId() + " - " + blog.getTitle());
 			if (blog.getBlogCategories() != null) {

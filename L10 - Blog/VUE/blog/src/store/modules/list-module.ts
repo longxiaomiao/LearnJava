@@ -11,11 +11,6 @@ export default class ListModule<T extends ListState<U>, R, U> implements Module<
         loading: false,
     };
     public mutations = {
-        setCurrentPage(state: ListState<U>, page: number) {
-            state.start = page;
-        },
-        setPageSize(state: ListState<U>, pagesize: number) {
-            state.size = pagesize;
-        },
+
     };
 }

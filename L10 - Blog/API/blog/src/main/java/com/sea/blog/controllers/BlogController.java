@@ -35,11 +35,19 @@ public class BlogController {
             @ApiImplicitParam(name = "keyword", value = "搜索关键字", required = false) })
     public PageInfo<Blog> GetList(@RequestParam(value = "start", defaultValue = "0") int start,
             @RequestParam(value = "size", defaultValue = "5") int size,
-            @RequestParam(value = "keyword", defaultValue = "") String keyword) {
+            @RequestParam(value = "keyword", defaultValue = "") String keyword,
+            @RequestParam(value = "categoryId", defaultValue = "") String categoryId) {
         PageHelper.startPage(start, size, "CreationTime desc");
-        List<Blog> list = blogMapper.findAll(keyword);
+        List<Blog> list = blogMapper.findAll(keyword, categoryId);
         PageInfo<Blog> page = new PageInfo<>(list);
         return page;
+    }
+
+    @GetMapping("/GetById")
+    @ApiOperation(value = "获取单个博客详情", notes = "根据ID获取单个博客详细")
+    @ApiImplicitParams({ @ApiImplicitParam(name = "id", value = "博客id") })
+    public Blog GetBlog(String id) throws Exception {
+        return blogMapper.getById(id);
     }
 
     @PostMapping()
