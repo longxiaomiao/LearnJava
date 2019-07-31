@@ -4,9 +4,12 @@ import demo.sort.BaseSort;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 /**
  * 冒泡排序（从右往左冒泡）
  */
+@Component
 public class BubbleSortReverse extends BaseSort {
     public BubbleSortReverse() {
         super("冒泡排序（从右往左冒泡）");

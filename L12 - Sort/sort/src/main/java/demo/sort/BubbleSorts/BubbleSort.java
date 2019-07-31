@@ -2,11 +2,14 @@ package demo.sort.BubbleSorts;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import demo.sort.BaseSort;
 
 /**
  * 冒泡排序
  */
+@Component
 public class BubbleSort extends BaseSort {
     public BubbleSort(){
         super("冒泡排序");

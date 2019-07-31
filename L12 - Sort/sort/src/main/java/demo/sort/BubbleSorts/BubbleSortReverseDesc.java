@@ -2,8 +2,14 @@ package demo.sort.BubbleSorts;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import demo.sort.BaseSort;
 
+/**
+ * 冒泡排序（从右往左冒泡 - 倒序）
+ */
+@Component
 public class BubbleSortReverseDesc extends BaseSort {
     public BubbleSortReverseDesc() {
         super("冒泡排序（从右往左冒泡 - 倒序）");

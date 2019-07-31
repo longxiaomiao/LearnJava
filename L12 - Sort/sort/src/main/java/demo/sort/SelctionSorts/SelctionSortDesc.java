@@ -2,8 +2,14 @@ package demo.sort.SelctionSorts;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import demo.sort.BaseSort;
 
+/**
+ * 选择排序（倒序）
+ */
+@Component
 public class SelctionSortDesc extends BaseSort {
     public SelctionSortDesc() {
         super("选择排序（倒序）");

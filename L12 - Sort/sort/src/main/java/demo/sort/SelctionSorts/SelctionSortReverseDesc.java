@@ -2,8 +2,14 @@ package demo.sort.SelctionSorts;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import demo.sort.BaseSort;
 
+/**
+ * 选择排序（反向倒序）
+ */
+@Component
 public class SelctionSortReverseDesc extends BaseSort {
     public SelctionSortReverseDesc() {
         super("选择排序（反向倒序）");
