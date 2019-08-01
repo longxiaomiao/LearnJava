@@ -22,7 +22,7 @@ import { Component, Vue, Inject, Prop, Watch } from "vue-property-decorator";
 import PageRequest from "../store/entities/page-request";
 
 class PageBlogReqeust extends PageRequest {
-  public keyWord!: string;
+  public keyword!: string;
   public categoryId!: string;
 }
 
@@ -63,7 +63,7 @@ export default class Blogs extends Vue {
   public async getBlogs() {
     this.pageBlogReqeust.start = this.currentPage;
     this.pageBlogReqeust.size = this.pageSize;
-    this.pageBlogReqeust.keyWord = this.$store.state.Blog.keyWord;
+    this.pageBlogReqeust.keyword = this.$store.state.Blog.keyWord;
     this.pageBlogReqeust.categoryId = this.$store.state.Blog.currentCategoryId;
 
     await this.$store.dispatch({

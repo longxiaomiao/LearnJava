@@ -22,8 +22,7 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
-              <!-- <b-nav-item :href="siteConfig.about" target="_blank">About</b-nav-item> -->
-              about
+              <b-nav-item href="/about" target="_blank">About</b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>
@@ -32,8 +31,8 @@
 
     <b-jumbotron>
       <div class="container">
-        <h1>title</h1>
-        <p>into</p>
+        <h1>{{siteConfig.title}}</h1>
+        <p>{{siteConfig.info}}</p>
       </div>
     </b-jumbotron>
     <div class="content px-4">
@@ -49,12 +48,16 @@
                 <div class="row">
                   <div class="col">
                     <div class="card">
-                      <img src class="card-img-top" />
+                      <img :src="siteConfig.photo" class="card-img-top" />
                       <div class="card-body">
-                        <h5 class="card-title">sea</h5>
-                        <p class="card-text">sea</p>
-                        <!-- <a :href="siteConfig.gitHub" v-show="siteConfig.gitHub!=''" class="btn btn-outline-info" target="_blank">Fork Me On GitHub</a> -->
-                        谐星
+                        <h5 class="card-title">{{siteConfig.userName}}</h5>
+                        <p class="card-text">{{siteConfig.userInfo}}</p>
+                        <a
+                          :href="siteConfig.gitHub"
+                          v-show="siteConfig.gitHub!=''"
+                          class="btn btn-outline-info"
+                          target="_blank"
+                        >Fork Me On GitHub</a>
                       </div>
                     </div>
                   </div>
@@ -107,6 +110,10 @@ export default class Home extends Vue {
     return this.$store.state.Category.list;
   }
 
+  get siteConfig() {
+    return this.$store.state.SiteConfig.siteConfigInfo;
+  }
+
   public async searchBlog(categoryId: string = "") {
     this.$store.commit("Blog/setCurrentCategoryId", categoryId);
     this.$store.commit("Blog/setKeyWord", this.keyWord);
@@ -115,6 +122,7 @@ export default class Home extends Vue {
 
   public async created() {
     await this.$store.dispatch("Category/getAll");
+    await this.$store.dispatch("getSiteConfig");
   }
 }
 </script>
