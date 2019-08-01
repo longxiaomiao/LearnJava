@@ -2,6 +2,8 @@ package com.sea.blog.controllers;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.sea.blog.mapper.CategoryMapper;
@@ -53,7 +55,7 @@ public class CategoryController {
     @PostMapping()
     @ApiOperation(value = "新增分类", notes = "新增分类")
     @ApiImplicitParams({ @ApiImplicitParam(name = "category", value = "分类") })
-    public void Add(Category category) throws Exception {
+    public void Add(@Valid Category category) throws Exception {
         categoryMapper.save(category);
     }
 
