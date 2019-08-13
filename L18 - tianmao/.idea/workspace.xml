@@ -1,7 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc622c36-c38f-44bd-bf2a-f6a17686ccd6" name="Default Changelist" comment="" />
+    <list default="true" id="cc622c36-c38f-44bd-bf2a-f6a17686ccd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/L12 - Sort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/common/SortConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/common/SortData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/BaseSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/BubbleSorts/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/BubbleSorts/BubbleSortDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/BubbleSorts/BubbleSortReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/BubbleSorts/BubbleSortReverseDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/InsertionSorts/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/SelctionSorts/SelctionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/SelctionSorts/SelctionSortDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/SelctionSorts/SelctionSortReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/main/java/demo/sort/SelctionSorts/SelctionSortReverseDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/src/test/java/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/common/SortConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/common/SortData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/BaseSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/BubbleSorts/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/BubbleSorts/BubbleSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/BubbleSorts/BubbleSortReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/BubbleSorts/BubbleSortReverseDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/InsertionSorts/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/SelctionSorts/SelctionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/SelctionSorts/SelctionSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/SelctionSorts/SelctionSortReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/classes/demo/sort/SelctionSorts/SelctionSortReverseDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/sort/target/test-classes/demo/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/SortApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/common/SortConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/common/SortData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/BaseSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortReverseDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/InsertionSorts/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortReverseDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/sort-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/sort-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/surefire-reports/TEST-com.sea.sort.SortApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/surefire-reports/com.sea.sort.SortApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/target/test-classes/com/sea/sort/SortApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +211,28 @@
       <option name="presentableId" value="Default" />
       <updated>1565588158029</updated>
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;修改sort&quot;&#10;&#10;This reverts commit 8685c4fc0c409828f2b814f641974532359b9559.">
+      <created>1565663441250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565663441250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;修改sort&quot;&#10;&#10;This reverts commit 8685c4fc0c409828f2b814f641974532359b9559.">
+      <created>1565663500829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565663500829</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;修改sort&quot;&#10;&#10;This reverts commit 8685c4fc0c409828f2b814f641974532359b9559.">
+      <created>1565663525820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565663525820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +255,31 @@
             </State>
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/.." />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -132,11 +292,14 @@
     <option name="OPEN_TABS">
       <set>
         <option value="1" />
+        <option value="2" />
       </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Revert &quot;修改sort&quot;&#10;&#10;This reverts commit 8685c4fc0c409828f2b814f641974532359b9559." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;修改sort&quot;&#10;&#10;This reverts commit 8685c4fc0c409828f2b814f641974532359b9559." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

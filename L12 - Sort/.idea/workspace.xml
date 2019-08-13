@@ -1,13 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bf64588-58fb-4a92-b586-b36024af1255" name="Default Changelist" comment="" />
+    <list default="true" id="c4c1b807-cfaf-40a8-9006-ca4ebc9d84d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/common/SortConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/common/SortData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/BaseSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/BubbleSorts/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/BubbleSorts/BubbleSortDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/BubbleSorts/BubbleSortReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/BubbleSorts/BubbleSortReverseDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/InsertionSorts/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/SelctionSorts/SelctionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/SelctionSorts/SelctionSortDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/SelctionSorts/SelctionSortReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts/SelctionSorts/SelctionSortReverseDesc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.factorypath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/common/SortConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/common/SortData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/BaseSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/BubbleSorts/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/BubbleSorts/BubbleSortDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/BubbleSorts/BubbleSortReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/BubbleSorts/BubbleSortReverseDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/InsertionSorts/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/SelctionSorts/SelctionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/SelctionSorts/SelctionSortDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/SelctionSorts/SelctionSortReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/demo/sort/SelctionSorts/SelctionSortReverseDesc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/test/java/demo/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/common/SortConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/common/SortData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/BaseSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/BubbleSorts/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/BubbleSorts/BubbleSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/BubbleSorts/BubbleSortReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/BubbleSorts/BubbleSortReverseDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/InsertionSorts/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/SelctionSorts/SelctionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/SelctionSorts/SelctionSortDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/SelctionSorts/SelctionSortReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/classes/demo/sort/SelctionSorts/SelctionSortReverseDesc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/target/test-classes/demo/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/SortApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/SortApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/common/SortConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/common/SortConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BaseSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BaseSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/BubbleSorts/BubbleSortReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/InsertionSorts/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/InsertionSorts/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortReverseDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/sort/sorts/SelctionSorts/SelctionSortReverseDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sort-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sort-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sea.sort.SortApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sea.sort.SortApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L18 - tianmao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../L18 - tianmao/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1PLqq552G1aMboUeGWfWffEGwuI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sea/sort/sorts" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L12 - Sort\src\main\java\com\sea\sort\sorts" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L12 - Sort\src\main\java\com\sea\sort\common" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -20,10 +110,48 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="SortApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sea.sort.SortApplication" />
+      <module name="L12 - Sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sea.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SortApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4c1b807-cfaf-40a8-9006-ca4ebc9d84d3" name="Default Changelist" comment="" />
+      <created>1565663911582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565663911582</updated>
+    </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
