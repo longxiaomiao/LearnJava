@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+    <mapper namespace="com.sea.blog.mapper.CategoryMapper">
+        <resultMap id="categoryBean" type="Category">
+                <id column="cid" property="Id" />
+                <result column="cCreatorUserId" property="CreatorUserId" />
+                <result column="cCreationTime" property="CreationTime" />
+                <result column="cLastModifierUserId" property="LastModifierUserId" />
+                <result column="cLastModificationTime" property="LastModificationTime" />
+                <result column="cDeleterUserId" property="DeleterUserId" />
+                <result column="cDeletionTime" property="DeletionTime" />
+                <result column="cIsDeleted" property="IsDeleted" />
+                <result column="Name" property="Name" />
+                <collection property="blogs" ofType="Blog">
+                    <id column="Id" property="Id" />
+                    <result column="CreatorUserId" property="CreatorUserId" />
+                    <result column="CreationTime" property="CreationTime" />
+                    <result column="LastModifierUserId" property="LastModifierUserId" />
+                    <result column="LastModificationTime" property="LastModificationTime" />
+                    <result column="DeleterUserId" property="DeleterUserId" />
+                    <result column="DeletionTime" property="DeletionTime" />
+                    <result column="IsDeleted" property="IsDeleted" />
+                    <result column="Slug" property="Slug" />
+                    <result column="Title" property="Title" />
+                    <result column="Summary" property="Summary" />
+                    <result column="Content" property="Content" />
+                    <result column="IsShow" property="IsShow" />
+                </collection>
+        </resultMap>
+
+        <select id="findAll" parameterType="string" resultType="Category">
+            select * from Categories where name like concat('%',#{0},'%')
+        </select>
+        <select id="findWithBlogs" parameterType="string" resultMap="categoryBean">
+            select c.id cid,c.CreatorUserId cCreatorUserId,c.CreationTime cCreationTime,c.LastModifierUserId cLastModifierUserId,c.LastModificationTime cLastModificationTime,
+                    c.DeleterUserId cDeleterUserId,c.DeletionTime cDeletionTime,c.IsDeleted cIsDeleted,c.Name,b.*,bc.*
+                from Categories c
+                INNER join BlogCategory bc on bc.CategoryID = c.Id
+                INNER join Blogs b on b.id = bc.BlogID
+                <if test="id!=null">
+                    where c.id = #{id}
+                </if>
+        </select>
+        <insert id="save" parameterType="Category">
+            insert into Categories(Id,CreatorUserId,CreationTime,Name,IsDeleted) values(uuid(),'admin',SYSDATE(),#{name},0)
+        </insert>
+        <update id="update" parameterType="Category">
+            update Categories set Name=#{name} where id=#{id}
+        </update>
+        <update id="delete" parameterType="string">
+            update Categories set IsDeleted=1 where id=#{id}
+        </update>
+    </mapper>

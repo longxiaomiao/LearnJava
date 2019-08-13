@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="857fc2a9-f82e-4703-b2b5-a508735e9b08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/config/CORSConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/config/PageHelperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/controllers/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/controllers/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/controllers/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/controllers/SiteConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/mapper/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/mapper/SiteConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/BlogCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/SiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/java/com/sea/blog/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/resources/mapper/Blog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/resources/mapper/Category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/resources/mapper/Permission.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/resources/mapper/Role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/resources/mapper/SiteConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L10 - Blog/BlogApi/src/main/resources/mapper/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L15 - IDEAConfig/lib/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L15 - IDEAConfig/src/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L15 - IDEAConfig/src/TestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/BlogApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/config/CORSConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/config/PageHelperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/controllers/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/controllers/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/controllers/SiteConfigController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/mapper/BlogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/mapper/SiteConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/model/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/model/BlogCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/java/com/sea/blog/model/SiteConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/resources/mapper/Blog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/resources/mapper/Category.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/main/resources/mapper/SiteConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/API/blog/src/test/java/com/sea/blog/BlogApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../L10 - Blog/VUE/blog/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/src/main/java/com/sea/ajhb/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/ajhb/src/test/java/com/sea/ajhb/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/shims-tsx.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/shims-vue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/tests/unit/example.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VUE/ajhb/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L12 - Sort/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../L12 - Sort/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/src/main/java/com/example/demo/aspects/LoggerAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/src/main/java/com/example/demo/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L14 - Spring AOP/demo2/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1PJMYmjk58AaE64RaG7HZQxOAnr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AjhbApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sea.ajhb.AjhbApplication" />
+      <module name="AJHB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sea.ajhb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AjhbApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="857fc2a9-f82e-4703-b2b5-a508735e9b08" name="Default Changelist" comment="" />
+      <created>1565587795566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565587795566</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

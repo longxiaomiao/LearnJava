@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+    <mapper namespace="com.sea.blog.mapper.BlogMapper">
+        <resultMap id="blogBean" type="Blog">
+            <id column="Id" property="Id" />
+            <result column="CreatorUserId" property="CreatorUserId" />
+            <result column="CreationTime" property="CreationTime" />
+            <result column="LastModifierUserId" property="LastModifierUserId" />
+            <result column="LastModificationTime" property="LastModificationTime" />
+            <result column="DeleterUserId" property="DeleterUserId" />
+            <result column="DeletionTime" property="DeletionTime" />
+            <result column="IsDeleted" property="IsDeleted" />
+            <result column="Slug" property="Slug" />
+            <result column="Title" property="Title" />
+            <result column="Summary" property="Summary" />
+            <result column="Content" property="Content" />
+            <result column="IsShow" property="IsShow" />
+            <collection property="blogCategories" ofType="BlogCategory">
+                <id column="BlogID" property="BlogID" />
+                <id column="CategoryID" property="CategoryID" />
+                <association property="category" javaType="Category">
+                    <id column="cid" property="Id" />
+                    <result column="cCreatorUserId" property="CreatorUserId" />
+                    <result column="cCreationTime" property="CreationTime" />
+                    <result column="cLastModifierUserId" property="LastModifierUserId" />
+                    <result column="cLastModificationTime" property="LastModificationTime" />
+                    <result column="cDeleterUserId" property="DeleterUserId" />
+                    <result column="cDeletionTime" property="DeletionTime" />
+                    <result column="cIsDeleted" property="IsDeleted" />
+                    <result column="Name" property="Name" />
+                </association>
+            </collection>
+        </resultMap>
+        <select id="findAll" resultMap="blogBean">
+            SELECT b.*,bc.*,c.id cid,c.CreatorUserId cCreatorUserId,c.CreationTime cCreationTime,c.LastModifierUserId cLastModifierUserId,c.LastModificationTime cLastModificationTime,
+                    c.DeleterUserId cDeleterUserId,c.DeletionTime cDeletionTime,c.IsDeleted cIsDeleted,c.Name
+                from Blogs b 
+                left join BlogCategory bc on bc.BlogID = b.Id
+                left join Categories c on c.Id = bc.CategoryID
+            <where>
+                <if test="keyword!=null and keyword!=''">
+                    and title like concat('%',#{keyword},'%')
+                </if>		 	
+                <if test="categoryId!=null and categoryId!=''">
+                    and c.id = #{categoryId}
+                </if>	
+            </where>
+        </select>
+        <select id="getById" parameterType="string" resultMap="blogBean">
+            SELECT b.*,bc.*,c.id cid,c.CreatorUserId cCreatorUserId,c.CreationTime cCreationTime,c.LastModifierUserId cLastModifierUserId,c.LastModificationTime cLastModificationTime,
+                    c.DeleterUserId cDeleterUserId,c.DeletionTime cDeletionTime,c.IsDeleted cIsDeleted,c.Name
+                from Blogs b 
+                left join BlogCategory bc on bc.BlogID = b.Id
+                left join Categories c on c.Id = bc.CategoryID
+            where b.id = #{id}
+        </select>
+        <insert id="save" parameterType="Blog">
+            INSERT INTO Blogs(Id, CreatorUserId, CreationTime, IsDeleted, Slug, Title, Summary, Content, IsShow) VALUES (uuid(), 'admin', SYSDATE(), 0, #{Slug}, #{Title}, #{Summary}, #{Content}, 1);
+        </insert>
+        <update id="update" parameterType="Blog">
+            update Blogs set Slug=#{Slug},Title=#{Title},Summary=#{Summary},Content=#{Content},IsShow=#{IsShow},LastModifierUserId='admin',LastModificationTime=SYSDATE() where id=#{id}
+        </update>
+        <delete id="delete" parameterType="string">
+            update Blogs set IsDeleted=1,DeleterUserId='admin',DeletionTime=SYSDATE() where id=#{id}
+        </delete>
+    </mapper>
