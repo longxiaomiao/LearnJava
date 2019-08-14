@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../static/js/thymeleaf.js" th:src="@{/js/thymeleaf.js}"></script>
+    <script type="text/javascript">
+        testFunction();
+    </script>
+</head>
+<body>
+    <p th:text="${name}">name</p>
+    <p th:text="'hello '+${name}+' !'">hello 1</p>
+    <p th:text="|hello ${name} !|">hello 2</p>
+</body>
+</html>

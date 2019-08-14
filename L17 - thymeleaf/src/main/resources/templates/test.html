@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:text="${htmlContent}"></p>
+    <p th:utext="${htmlContent}"></p>
+    <hr/>
+    <p th:text="${currentProduct}" ></p>
+    <p th:text="${currentProduct.name}" ></p>
+    <p th:text="${currentProduct.getName()}" ></p>
+    <hr/>
+    <div class="showing" th:object="${currentProduct}">
+        <h2>*{}方式显示属性</h2>
+        <p th:text="*{name}" ></p>
+    </div>
+    <hr/>
+    <p th:text="${currentProduct.price+999}" ></p>
+    <tr/>
+    <div>
+        <h2>条件判断</h2>
+        <p th:if="${isShow}">isShow 1</p>
+        <p th:if="${not isShow}">isShow 2</p>
+        <p th:unless="${isShow}">isShow 3</p>
+        <p th:text="${isShow}?'isShow 为 true':'isShow 为 false'" ></p>
+    </div>
+    <hr/>
+    <div>
+        <h2>th:each</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>产品名称</th>
+                    <th>价格</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="p: ${products}">
+                    <td th:text="${p.id}"></td>
+                    <td th:text="${p.name}"></td>
+                    <td th:text="${p.price}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr/>
+    <div>
+        <h2>th:each 带状态</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>index</th>
+                <th>count</th>
+                <th>id</th>
+                <th>产品名称</th>
+                <th>价格</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="p,status: ${products}">
+                <td th:text="${status.index}"></td>
+                <td th:text="|${status.count}/${status.size}|"></td>
+                <td th:text="${p.id}"></td>
+                <td th:text="${p.name}"></td>
+                <td th:text="${p.price}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr/>
+    <div>
+        <h2>select</h2>
+        <select>
+            <option th:each="p:${products}" th:value="${p.id}" th:text="${p.name}" th:selected="${p.id == currentProduct.id}"></option>
+        </select>
+    </div>
+    <hr/>
+    <div>
+        <h2>radio group</h2>
+        <input name="product" type="radio" th:each="p:${products}" th:value="${p.id}" th:text="${p.name}" th:checked="${p.id == currentProduct.id}" />
+    </div>
+    <hr/>
+    <div>
+        <h2>内置工具 Execution Info</h2>
+        <div th:text="${#execInfo.templateName}"></div>
+        <div th:text="${#execInfo.templateMode}"></div>
+        <div th:text="${#execInfo.processedTemplateName}"></div>
+        <div th:text="${#execInfo.processedTemplateMode}"></div>
+        <div th:text="${#execInfo.templateNames}"></div>
+        <div th:text="${#execInfo.templateModes}"></div>
+        <div th:text="${#execInfo.templateStack}"></div>
+
+        <h2>内置工具 String</h2>
+        <div th:text="${#strings.startsWith(currentProduct.name,'product')}"></div>
+    </div>
+    <hr/>
+    <div>
+        <div th:replace="foot::foot1"></div>
+        <div th:replace="foot::foot2(${currentProduct.name},${currentProduct.price})"></div>
+    </div>
+</body>
+</html>

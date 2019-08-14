@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<footer th:fragment="foot1">
+    <p>hello foot</p>
+</footer>
+<footer th:fragment="foot2(name,price)">
+    <p th:text="|hello foot: ${name},${price}|"></p>
+</footer>

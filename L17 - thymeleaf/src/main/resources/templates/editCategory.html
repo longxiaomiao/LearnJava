@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>editCategory</title>
+</head>
+<body>
+<form action="updateCategory" method="post">
+    <input type="hidden" id="id" name="id" th:value="${category.id}"/>
+    <input type="text" id="name" name="name" th:value="${category.name}">
+    <br/>
+    <input type="submit" id="btnSubmit" name="btnSubmit" value="提交"/>
+</form>
+</body>
+</html>
