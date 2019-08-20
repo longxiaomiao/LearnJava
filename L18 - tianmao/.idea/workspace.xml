@@ -1,114 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/CategoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/exception/GloabalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/back/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/fore/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/category/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/category/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/category/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/7day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/alipay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/alipay2wei.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/buyflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/canvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/cartNotSelected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/cartSelected.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/catear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/cateye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/chaoshi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/comformPayFlow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/confirmOrderTmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/copyRight1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/copyRight2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/creditcard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/decrease.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/eachcategory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/end.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/ensure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/gouwujuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/guoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/increase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/leaveMessage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/li_dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/loginBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/ma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/orderFinish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/orderItemTmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/paySuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/priceBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/promise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/registerSuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/renzheng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/reviewLight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/simpleLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/star/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/tmallbuy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/wangwang.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/wangwang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/site/warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/axios/0.17.1/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment/2.22.2/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vue/2.5.16/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminFooter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminNavigator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+    <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="learn java -- tianmao">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/util/Page4Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/27.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/L18 - tianmao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L18 - tianmao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/back/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/back/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fore/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/fore/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/category/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/category/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/category/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/7day.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/7day.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/alipay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/alipay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/alipay2wei.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/alipay2wei.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/buyflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/buyflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/canvas.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/canvas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/cartNotSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cartNotSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/cartSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cartSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/catear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/catear.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/cateye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cateye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/chaoshi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/chaoshi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/comformPayFlow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/comformPayFlow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/confirmOrderTmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/confirmOrderTmall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/copyRight1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/copyRight2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/creditcard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/creditcard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/decrease.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/decrease.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/eachcategory.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/eachcategory.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/end.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/end.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/ensure.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/ensure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/gouwujuan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/gouwujuan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/guoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/guoji.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/increase.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/increase.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/leaveMessage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/leaveMessage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/li_dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/li_dot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/loginBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/loginBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/ma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/ma.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/orderFinish.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/orderFinish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/orderItemTmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/orderItemTmall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/paySuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/paySuccess.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/priceBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/priceBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/promise.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/promise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/registerSuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/registerSuccess.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/renzheng.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/renzheng.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/reviewLight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/reviewLight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/simpleLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/simpleLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/star/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/star/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/tmallbuy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/tmallbuy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/wangwang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/wangwang.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/axios/0.17.1/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/axios/0.17.1/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery/2.0.0/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/moment/2.22.2/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/moment/2.22.2/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vue/2.5.16/vue.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/2.5.16/vue.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/config/CORSConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/config/CORSConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/exception/GloabalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/exception/GloabalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/pojo/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/test/TestTmall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/service/CategoryService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/editCategory.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/listCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/listCategory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminFooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminFooter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminNavigator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminNavigator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,12 +133,25 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.21276593" />
+    <property name="project.structure.side.proportion" value="0.2839037" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\target\classes\static\img" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\WEB-INF" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TianmaoApplication">
     <configuration name="TianmaoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sea.tianmao.TianmaoApplication" />
       <module name="L18 - tianmao" />
@@ -171,6 +176,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TianmaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="L18 - tianmao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sea.tianmao.TianmaoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,15 +203,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565946448341</updated>
+      <workItem from="1566294565402" duration="178000" />
+      <workItem from="1566294755676" duration="700000" />
+      <workItem from="1566308220066" duration="1907000" />
     </task>
+    <task id="LOCAL-00001" summary="learn java -- tianmao">
+      <created>1565949690627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565949690627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -207,5 +235,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="learn java -- tianmao" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao" />
   </component>
 </project>
