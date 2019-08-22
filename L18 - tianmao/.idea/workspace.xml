@@ -2,105 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="learn java -- tianmao">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/util/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/util/Page4Navigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/category/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/PropertyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/editCategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/editProperty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listProperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L18 - tianmao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L18 - tianmao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/back/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/back/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/3.3.6/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/3.3.6/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/fore/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/fore/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/category/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/category/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/category/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/lunbo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/lunbo/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/7day.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/7day.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/alipay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/alipay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/alipay2wei.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/alipay2wei.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/buyflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/buyflow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/canvas.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/canvas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/cartNotSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cartNotSelected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/cartSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cartSelected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/catear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/catear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/cateye.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/cateye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/chaoshi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/chaoshi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/comformPayFlow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/comformPayFlow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/confirmOrderTmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/confirmOrderTmall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/copyRight1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/copyRight2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/copyRight2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/creditcard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/creditcard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/decrease.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/decrease.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/eachcategory.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/eachcategory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/end.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/end.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/ensure.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/ensure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/gouwujuan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/gouwujuan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/guoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/guoji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/increase.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/increase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/leaveMessage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/leaveMessage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/li_dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/li_dot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/loginBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/loginBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/ma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/ma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/orderFinish.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/orderFinish.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/orderItemTmall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/orderItemTmall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/paySuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/paySuccess.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/priceBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/priceBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/promise.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/promise.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/registerSuccess.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/registerSuccess.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/renzheng.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/renzheng.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/reviewLight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/reviewLight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/simpleLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/simpleLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/star/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/star/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/tmallbuy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/tmallbuy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/wangwang.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/wangwang.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/wangwang.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/site/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/img/site/warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/axios/0.17.1/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/axios/0.17.1/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap/3.3.6/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/3.3.6/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery/2.0.0/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery/2.0.0/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/moment/2.22.2/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/moment/2.22.2/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/vue/2.5.16/vue.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/2.5.16/vue.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/config/CORSConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/config/CORSConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/listCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/listCategory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminFooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminFooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminNavigator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminNavigator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +111,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -120,6 +119,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Program Files (x86)/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Program Files (x86)\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -132,6 +137,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -139,7 +145,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.21276593" />
     <property name="project.structure.side.proportion" value="0.2839037" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -205,7 +211,11 @@
       <updated>1565946448341</updated>
       <workItem from="1566294565402" duration="178000" />
       <workItem from="1566294755676" duration="700000" />
-      <workItem from="1566308220066" duration="1907000" />
+      <workItem from="1566308220066" duration="2187000" />
+      <workItem from="1566375933651" duration="7070000" />
+      <workItem from="1566477582648" duration="107000" />
+      <workItem from="1566477856446" duration="196000" />
+      <workItem from="1566478168873" duration="1625000" />
     </task>
     <task id="LOCAL-00001" summary="learn java -- tianmao">
       <created>1565949690627</created>
@@ -214,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565949690627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="learn java -- tianmao">
+      <created>1566310472595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566310472595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

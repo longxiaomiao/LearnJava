@@ -15,4 +15,19 @@ public class AdminPageController {
     public String listCategory() {
         return "admin/listCategory";
     }
+
+    @GetMapping("/admin_category_edit")
+    public String editCategory() {
+        return "admin/editCategory";
+    }
+
+    @GetMapping("/admin_property_list")
+    public String listProperty() {
+        return "admin/listProperty";
+    }
+
+    @GetMapping("/admin_property_edit")
+    public String editProperty() {
+        return "admin/editProperty";
+    }
 }

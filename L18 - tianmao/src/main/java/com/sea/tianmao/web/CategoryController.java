@@ -21,14 +21,15 @@ public class CategoryController {
     CategoryService categoryService;
 
     @GetMapping("/categories")
-    public Page4Navigator<Category> list(@RequestParam(value = "start", defaultValue = "0") int start, @RequestParam(value = "size", defaultValue = "5") int size) {
+    public Page4Navigator<Category> list(@RequestParam(value = "start", defaultValue = "0") int start,
+                                         @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
         start = start < 0 ? 0 : start;
         Page4Navigator<Category> page = categoryService.list(start, size, 5);
         return page;
     }
 
     @PostMapping("/categories")
-    public Object Add(Category category, MultipartFile image, HttpServletRequest request) throws IOException {
+    public Object Add(Category category, MultipartFile image, HttpServletRequest request) throws Exception {
         categoryService.add(category);
         saveOrUpdateImageFile(category, image, request);
         return category;
@@ -45,11 +46,26 @@ public class CategoryController {
     }
 
     @DeleteMapping("/categories/{id}")
-    public String delete(@PathVariable("id") int id, HttpServletRequest request) throws IOException {
+    public String delete(@PathVariable("id") int id, HttpServletRequest request) throws Exception {
         categoryService.delete(id);
         File imageFolder = new File(request.getServletContext().getRealPath("img/category"));
         File file = new File(imageFolder, id + ".jpg");
         file.delete();
         return null;
+    }
+
+    @GetMapping("/categories/{id}")
+    public Category get(@PathVariable("id") int id) throws Exception {
+        Category category = categoryService.get(id);
+        return category;
+    }
+
+    @PutMapping("/categories/{id}")
+    public Object update(Category category, MultipartFile image, HttpServletRequest request) throws Exception {
+        categoryService.update(category);
+        if (image != null) {
+            saveOrUpdateImageFile(category, image, request);
+        }
+        return category;
     }
 }
