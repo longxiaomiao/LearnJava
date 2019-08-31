@@ -25,4 +25,7 @@ public class Product {
     @JoinColumn(name = "cid")
     private Category category;
     private Date createDate;
+
+    @Transient //表示该属性并非一个到数据库表的字段的映射
+    private ProductImage firstProductImage;
 }
