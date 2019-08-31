@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/PropertyValueDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/PropertyValueService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/PropertyValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/editPropertyValue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listUser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/PropertyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/PropertyDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/PropertyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/PropertyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" afterDir="false" />
     </list>
@@ -22,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,16 +60,17 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates\admin" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\WEB-INF" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\target\classes\static\img" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\WEB-INF" />
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,7 +131,7 @@
       <workItem from="1566478168873" duration="2002000" />
       <workItem from="1566888026163" duration="6872000" />
       <workItem from="1567151673159" duration="6091000" />
-      <workItem from="1567255192396" duration="4006000" />
+      <workItem from="1567255192396" duration="7262000" />
     </task>
     <task id="LOCAL-00001" summary="learn java -- tianmao">
       <created>1565949690627</created>
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567256632768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="learn java -- tianmao">
+      <created>1567259313598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567259313598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
