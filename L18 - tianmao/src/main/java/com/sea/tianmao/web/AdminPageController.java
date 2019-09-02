@@ -52,7 +52,12 @@ public class AdminPageController {
     }
 
     @GetMapping("/admin_user_list")
-    public String listUser(){
+    public String listUser() {
         return "admin/listUser";
+    }
+
+    @GetMapping("/admin_order_list")
+    public String listOrder() {
+        return "admin/listOrder";
     }
 }

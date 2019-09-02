@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/OrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingle/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingleMiddle/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/productSingleSmall/7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/AdminPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/web/AdminPageController.class" afterDir="false" />
@@ -20,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -131,7 +138,8 @@
       <workItem from="1566478168873" duration="2002000" />
       <workItem from="1566888026163" duration="6872000" />
       <workItem from="1567151673159" duration="6091000" />
-      <workItem from="1567255192396" duration="7262000" />
+      <workItem from="1567255192396" duration="7383000" />
+      <workItem from="1567389718274" duration="4763000" />
     </task>
     <task id="LOCAL-00001" summary="learn java -- tianmao">
       <created>1565949690627</created>
@@ -175,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567259313598</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="learn java -- tianmao -- user">
+      <created>1567262504369</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567262504369</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="learn java -- tianmao" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao" />
+    <MESSAGE value="learn java -- tianmao -- user" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao -- user" />
   </component>
 </project>
