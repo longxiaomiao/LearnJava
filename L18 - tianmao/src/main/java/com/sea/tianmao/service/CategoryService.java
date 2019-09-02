@@ -2,6 +2,7 @@ package com.sea.tianmao.service;
 
 import com.sea.tianmao.dao.CategoryDAO;
 import com.sea.tianmao.pojo.Category;
+import com.sea.tianmao.pojo.Product;
 import com.sea.tianmao.util.Page4Navigator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -42,7 +43,31 @@ public class CategoryService {
         return c;
     }
 
-    public void update(Category category){
+    public void update(Category category) {
         categoryDAO.save(category);
+    }
+
+    public void removeCategoryFromProduct(List<Category> cs) {
+        for (Category category : cs) {
+            removeCategoryFromProduct(category);
+        }
+    }
+
+    public void removeCategoryFromProduct(Category category) {
+        List<Product> products = category.getProducts();
+        if (null != products) {
+            for (Product product : products) {
+                product.setCategory(null);
+            }
+        }
+
+        List<List<Product>> productsByRow = category.getProductsByRow();
+        if (null != productsByRow) {
+            for (List<Product> ps : productsByRow) {
+                for (Product p : ps) {
+                    p.setCategory(null);
+                }
+            }
+        }
     }
 }
