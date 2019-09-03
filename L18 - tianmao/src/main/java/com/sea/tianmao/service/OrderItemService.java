@@ -4,6 +4,7 @@ import com.sea.tianmao.dao.OrderDAO;
 import com.sea.tianmao.dao.OrderItemDAO;
 import com.sea.tianmao.pojo.Order;
 import com.sea.tianmao.pojo.OrderItem;
+import com.sea.tianmao.pojo.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -37,5 +38,17 @@ public class OrderItemService {
 
     public List<OrderItem> listByOrder(Order order) {
         return orderItemDAO.findByOrderOrderByIdDesc(order);
+    }
+
+    public List<OrderItem> listByProduct(Product product) {
+        return orderItemDAO.findByProduct(product);
+    }
+
+    public int getSaleCount(Product product) {
+        List<OrderItem> orderItems = listByProduct(product);
+        int result = orderItems.stream().filter(orderItem -> null != orderItem.getOrder() && null != orderItem.getOrder().getPayDate())
+                .mapToInt(OrderItem::getNumber)
+                .sum();
+        return result;
     }
 }
