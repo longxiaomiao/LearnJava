@@ -1,5 +1,6 @@
 package com.sea.tianmao.web;
 
+import com.sea.tianmao.comparator.*;
 import com.sea.tianmao.pojo.*;
 import com.sea.tianmao.service.*;
 import com.sea.tianmao.util.Result;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -72,5 +74,41 @@ public class ForeRESTController {
         map.put("pvs", propertyValues);
         map.put("reviews", reviews);
         return Result.success(map);
+    }
+
+    @GetMapping("forecheckLogin")
+    public Object checkLogin(HttpSession session) {
+        User user = (User) session.getAttribute("user");
+        if (null != user)
+            return Result.success();
+        return Result.fail("未登录");
+    }
+
+    @GetMapping("forecategory/{cid}")
+    public Object category(@PathVariable("cid") int cid, String sort) throws Exception {
+        Category category = categoryService.get(cid);
+        productService.fill(category);
+        productService.setSaleAndReviewNumber(category.getProducts());
+        categoryService.removeCategoryFromProduct(category);
+        if (null != sort) {
+            switch (sort) {
+                case "review":
+                    Collections.sort(category.getProducts(), new ProductReviewComparator());
+                    break;
+                case "date":
+                    Collections.sort(category.getProducts(), new ProductDateComparator());
+                    break;
+                case "saleCount":
+                    Collections.sort(category.getProducts(), new ProductSaleCountComparator());
+                    break;
+                case "price":
+                    Collections.sort(category.getProducts(), new ProductPriceComparator());
+                    break;
+                case "all":
+                    Collections.sort(category.getProducts(), new ProductAllComparator());
+                    break;
+            }
+        }
+        return category;
     }
 }

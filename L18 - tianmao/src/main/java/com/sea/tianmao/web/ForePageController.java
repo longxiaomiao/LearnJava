@@ -42,4 +42,9 @@ public class ForePageController {
     public String product() {
         return "fore/product";
     }
+
+    @GetMapping("/forecategory")
+    public String forecategory() {
+        return "fore/category";
+    }
 }

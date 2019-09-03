@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/ReviewDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/registerSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/loginPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/modal4login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/imgAndInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productReview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/registerPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/simpleSearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/comparator/ProductAllComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/comparator/ProductDateComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/comparator/ProductPriceComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/comparator/ProductReviewComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/comparator/ProductSaleCountComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/category/categoryPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/category/productsByCategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/category/sortBar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/OrderItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/OrderItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/pojo/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/OrderItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForePageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForeRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForeRESTController.java" afterDir="false" />
     </list>
@@ -37,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -150,7 +138,7 @@
       <workItem from="1567151673159" duration="6091000" />
       <workItem from="1567255192396" duration="7383000" />
       <workItem from="1567389718274" duration="10443000" />
-      <workItem from="1567473051579" duration="8339000" />
+      <workItem from="1567473051579" duration="9612000" />
     </task>
     <task id="LOCAL-00001" summary="learn java -- tianmao">
       <created>1565949690627</created>
@@ -215,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567418347222</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="learn java -- tianmao -- product">
+      <created>1567503230781</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567503230781</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +244,7 @@
     <MESSAGE value="learn java -- tianmao" />
     <MESSAGE value="learn java -- tianmao -- user" />
     <MESSAGE value="learn java -- tianmao -- order" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao -- order" />
+    <MESSAGE value="learn java -- tianmao -- product" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao -- product" />
   </component>
 </project>
