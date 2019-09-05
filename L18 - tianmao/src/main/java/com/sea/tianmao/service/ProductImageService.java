@@ -2,6 +2,7 @@ package com.sea.tianmao.service;
 
 import com.sea.tianmao.dao.ProductDAO;
 import com.sea.tianmao.dao.ProductImageDAO;
+import com.sea.tianmao.pojo.OrderItem;
 import com.sea.tianmao.pojo.Product;
 import com.sea.tianmao.pojo.ProductImage;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,5 +48,11 @@ public class ProductImageService {
 
     public void delete(int id) {
         productImageDAO.deleteById(id);
+    }
+
+    public void setFirstProdutImagesOnOrderItems(List<OrderItem> ois) {
+        for (OrderItem orderItem : ois) {
+            setFirstProductImage(orderItem.getProduct());
+        }
     }
 }

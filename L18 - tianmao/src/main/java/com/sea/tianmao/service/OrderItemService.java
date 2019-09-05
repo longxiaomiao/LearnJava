@@ -5,6 +5,7 @@ import com.sea.tianmao.dao.OrderItemDAO;
 import com.sea.tianmao.pojo.Order;
 import com.sea.tianmao.pojo.OrderItem;
 import com.sea.tianmao.pojo.Product;
+import com.sea.tianmao.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,5 +51,21 @@ public class OrderItemService {
                 .mapToInt(OrderItem::getNumber)
                 .sum();
         return result;
+    }
+
+    public List<OrderItem> listByUser(User user) {
+        return orderItemDAO.findByUserAndOrderIsNull(user);
+    }
+
+    public void add(OrderItem orderItem) {
+        orderItemDAO.save(orderItem);
+    }
+
+    public void update(OrderItem orderItem) {
+        orderItemDAO.save(orderItem);
+    }
+
+    public OrderItem get(int id) {
+        return orderItemDAO.getOne(id);
     }
 }
