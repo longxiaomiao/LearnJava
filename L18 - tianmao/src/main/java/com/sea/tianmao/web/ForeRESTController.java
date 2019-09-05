@@ -193,12 +193,23 @@ public class ForeRESTController {
     @GetMapping("forechangeOrderItem")
     public Object forechangeOrderItem(int pid, int num, HttpSession session) throws Exception {
         User user = (User) session.getAttribute("user");
+        if (null == user)
+            return Result.fail("未登录");
         List<OrderItem> ois = orderItemService.listByUser(user);
         OrderItem orderItem = ois.stream().filter(o -> pid == o.getProduct().getId()).findFirst().orElse(null);
         if (null != orderItem) {
             orderItem.setNumber(num);
             orderItemService.update(orderItem);
         }
+        return Result.success();
+    }
+
+    @GetMapping("foredeleteOrderItem")
+    public Object deleteOrderItem(HttpSession session, int oiid) {
+        User user = (User) session.getAttribute("user");
+        if (null == user)
+            return Result.fail("未登录");
+        orderItemService.delete(oiid);
         return Result.success();
     }
 }

@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84b8d8e3-7fb0-40ee-94a2-e948a4365646" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/buy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fore/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/buyPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/cartPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/modal4deleteConfirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/productsBySearch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/searchPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/interceptor/OtherInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/OrderItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/OrderItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L18 - tianmao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/L18 - tianmao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/config/CORSConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/OrderItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/OrderItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ProductImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ProductImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForePageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForeRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sea/tianmao/web/ForeRESTController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/fore/modal4login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/modal4login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/imgAndInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/imgAndInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/cartPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/cartPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sea/tianmao/config/CORSConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sea/tianmao/config/CORSConfiguration.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,18 +62,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates" />
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\target\classes\static\img" />
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
-      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates\include\fore" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates\admin" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\WEB-INF" />
       <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\templates" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\target\classes\static\img" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\webapp" />
+      <recent name="D:\sea\learn\java\LearnJava.Demo\L18 - tianmao\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,7 +138,7 @@
       <workItem from="1567389718274" duration="10443000" />
       <workItem from="1567473051579" duration="10232000" />
       <workItem from="1567559587989" duration="6782000" />
-      <workItem from="1567652429098" duration="3259000" />
+      <workItem from="1567652429098" duration="11883000" />
     </task>
     <task id="LOCAL-00001" summary="learn java -- tianmao">
       <created>1565949690627</created>
@@ -225,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567504483604</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="learn java -- tianmao -- car">
+      <created>1567655857033</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1567655857033</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +260,7 @@
     <MESSAGE value="learn java -- tianmao -- order" />
     <MESSAGE value="learn java -- tianmao -- product" />
     <MESSAGE value="learn java -- tianmao -- category" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao -- category" />
+    <MESSAGE value="learn java -- tianmao -- car" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn java -- tianmao -- car" />
   </component>
 </project>
